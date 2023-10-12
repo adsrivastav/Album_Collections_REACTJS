@@ -1,0 +1,17 @@
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.card:hover {
+  background: rgba(0, 128, 0, 0.5); /* Change color on hover */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); /* Change shadow on hover */
+  transform: scale(1.05); /* Add a hover effect (scaling) */
+  filter: hue-rotate(90deg); /* Change the hue on hover */
+}
